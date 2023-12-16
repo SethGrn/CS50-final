@@ -1,3 +1,23 @@
+# CS50-final (GigaNote)
+#### Video Demo: 
+#### Description:
+GigaNote is a web app created in React that allows the user to create and manage a list of notes.
+I used Bootstrap for styling to easily make the page look aesthetic while being able to focus on writing the Javascript for the website.
+I've recently been learning React in a course I am currently taking so I wanted to use the skills I've gotten up till now to create something that isn't super difficult, since I don't have much time because of this other class, but is also just on the edge of my abilities. I learned some new things while working on this which is great!
+With this web app you can create simple notes just like in EverNote, these are stored in a state variable until the user closes the Window.
+
+Thanks for an awesomem course!
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
