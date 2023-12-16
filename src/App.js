@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Header"
 import Sidebar from "./Sidebar"
 import NoteView from "./NoteView"
-import NotFound from "./NotFound"
 import data from "./data/notes-data.js"
 
 import './App.css';
@@ -65,7 +63,6 @@ function App() {
   }
 
   return (
-    <Router>
       <div className="bg-dark-subtle">
         <Header />
         <div class="d-flex w-100">
@@ -73,11 +70,6 @@ function App() {
             <NoteView note={ active } deleteNote={ deleteNote } editNote={editNote} findNoteIndex={findNoteIndex}/>
         </div>
       </div>
-      
-      <Routes>
-        <Route element={<NotFound />}/>
-      </Routes>
-    </Router>
   )
 }
 
